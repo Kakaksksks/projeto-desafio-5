@@ -4,6 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "node ./server.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +13,9 @@
   "description": "",
   "dependencies": {
     "@prisma/client": "^5.17.0",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
+    "mongodb": "^6.8.0",
     "sqlite3": "^5.1.7"
   },
   "devDependencies": {
